@@ -1,2 +1,2 @@
 # Saaransh-
-This is my python project . It will work Linux.
+This is my python project . It will work on Linux.
