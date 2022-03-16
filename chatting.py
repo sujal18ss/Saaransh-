@@ -18,11 +18,9 @@ while True:
 			13: exit to terminal 
 			00: Exit to program
 			""")
-
-
+	
 	user_input= input("What can i do for you :- ")
 	
-
 	if ("exit" in user_input) or ("E" in user_input):
 		print("\aexiting ...")
 		exit=os.system("exit")
@@ -81,8 +79,7 @@ while True:
 	elif ("exit" in user_input) and ("terminal" in user_input):
 		exit=os.system("exit")
 		print(exit)
-	
-
+		
 	else:
 		print("Wrong Input...")
 
